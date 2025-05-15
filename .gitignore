@@ -30,3 +30,6 @@ out
 *.njsproj
 *.sln
 *.sw?
+
+
+utils

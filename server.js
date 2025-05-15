@@ -6,7 +6,6 @@ const cors = require("cors");
 const ConnectDB = require("./config/database");
 const { createRoom, joinRoom, leaveRoom, handleUserDisconnect } = require("./controllers/roomController");
 const { updatePythonCode, handleMsgFromClient } = require("./controllers/codeMsgController");
-const { pythonCodeExecution } = require("./controllers/codeExecutionController");
 
 const PORT = 8080;
 const app = express();
